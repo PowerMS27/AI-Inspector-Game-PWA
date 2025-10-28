@@ -13,6 +13,7 @@ PWA with an auto-save feature, powered by Text-to-Text and Text-to-Speech AI mod
 ## Stack
 
 - Nuxt 4
+- Vue 3
 - TypeScript
 - Pinia
 - Tone.js
