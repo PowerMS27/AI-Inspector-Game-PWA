@@ -12,17 +12,17 @@ const emit = defineEmits<{
 </script>
 <template>
   <div>
-    <div v-show="!roundsLeft">
+    <div v-show="!roundsLeft" class="w-full flex">
       <ui-button
         :disabled="isLoading"
-        class="bg-teal-500 mr-2"
+        class="bg-teal-500 mr-2 w-1/2"
         @click="emit('handleAccept')"
       >
         Accept
       </ui-button>
       <ui-button
         :disabled="isLoading"
-        class="bg-rose-500"
+        class="bg-rose-500 w-1/2"
         @click="emit('handleDecline')"
       >
         Decline

@@ -1,6 +1,11 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+  vite: {
+    server: {
+      allowedHosts: ['.ngrok-free.app']
+    }
+  },
   runtimeConfig: {
     public: {
       huggingfaceApiKey1: process.env.NUXT_HUGGINGFACE_API_KEY_1,

@@ -1,12 +1,12 @@
 import { defineStore } from "pinia";
 
 export const useGameConfigStore = defineStore("gameConfig", () => {
-  const isTestText2SpeechGen = true;
-  const isTestText2TextGen = true;
-  const isShouldBeAcceptedShown = true;
-  const charactersHistoryBuffer = 2;
+  const isTestText2SpeechGen = false;
+  const isTestText2TextGen = false;
+  const isShouldBeAcceptedShown = false;
+  const charactersHistoryBuffer = 6;
   const dialogueOptionsForPlayer = 3;
-  const turnsPerLevel = 1;
+  const turnsPerLevel = 2;
   const gameLevelLimit = 1;
 
   return {

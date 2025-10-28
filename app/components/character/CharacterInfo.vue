@@ -7,6 +7,9 @@ interface Props {
   gameCharacter: GameCharacter;
 }
 const { gameCharacter } = defineProps<Props>();
+
+//params
+const gameConfig = useGameConfigStore();
 </script>
 <template>
   <div class="leading-4 border-2 border-violet-950 px-3 py-2 flex items-center">
@@ -21,7 +24,7 @@ const { gameCharacter } = defineProps<Props>();
         Occupation:
         <span class="text-teal-500">{{ gameCharacter.occupation }}</span>
       </div>
-      <div>
+      <div v-if="gameConfig.isShouldBeAcceptedShown">
         shouldBeAccepted:
         <span class="text-teal-500">{{ gameCharacter.shouldBeAccepted }}</span>
       </div>

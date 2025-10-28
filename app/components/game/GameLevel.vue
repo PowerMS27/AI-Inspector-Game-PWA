@@ -57,7 +57,7 @@ const handleGenerate = async (option: DialogueOption) => {
     aiResponse.value = "";
     const aiTextResponse = await generateText(prompt, {
       model: "meta-llama/Llama-3.1-8B-Instruct",
-      max_tokens: 80,
+      max_tokens: 100,
     });
 
     generateAndPlay(

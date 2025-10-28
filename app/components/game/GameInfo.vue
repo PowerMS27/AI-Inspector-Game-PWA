@@ -5,12 +5,11 @@ interface Props {
   turnsLeft: number;
   levelLimit: number;
 }
-const { gameLevel, turnsLeft, levelLimit } = defineProps<Props>();
+const { turnsLeft } = defineProps<Props>();
 </script>
 <template>
   <div>
     <div class="bg-teal-500 opacity-50 px-3">
-      <div>Character: {{ gameLevel }} / {{ levelLimit }}</div>
       <div>Turns Left: {{ turnsLeft }}</div>
     </div>
   </div>
