@@ -1,75 +1,21 @@
-# Nuxt Minimal Starter
+# "AI Inspector" video game
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![hippo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFhNWluZW01amg2dDQ0N3k2Mm80a2s5YjhsYnA5azZlajFwOWpybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9DQ2vGgixPBC71pwZJ/giphy.gif)
 
-## Setup
+## Description
 
-Make sure to install dependencies:
+The player conducts job interviews in a futuristic setting. The candidates are AI robots, and the player has several turns to ask them questions and decide whether to accept or reject each one.
 
-```bash
-# npm
-npm install
+## Tech Description
 
-# pnpm
-pnpm install
+PWA with an auto-save feature, powered by Text-to-Text and Text-to-Speech AI models. Each voice is enhanced with real-time Tone.js sound effects such as reverb, distortion, and pitch modulation.
 
-# yarn
-yarn install
+## Stack
 
-# bun
-bun install
-```
+- Nuxt 4
+- TypeScript
+- Pinia
+- Tone.js
+- Tailwind
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
